@@ -1,0 +1,269 @@
+/*-------------------* css reset *-------------------------*/
+/* font-family: 'Sansita Swashed', cursive; */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Texturina', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ================================== */
+
+/*-------------------* header *-------------------------*/
+#main{
+    height: 100vh;
+    background:  linear-gradient( 177.9deg,#16f7ffd3,  rgba(23, 32, 42, 0.096) ) ,url(../../assets/img/home1.jpg) no-repeat center center/cover;
+}
+#main2{
+    height: 100px;
+    background: linear-gradient( 90deg, #0b0c0cd3,  rgba(125, 127, 129, 0.685) );
+}
+nav span{
+    color: rgb(90, 88, 88);
+    transition: 0.5s;
+}
+nav span:hover{
+    color: white;
+}
+.nav-link, #main .navbar-brand, .navbar-nav .nav-item .nav-link, #main div span, #product i, .single_product h5 a, #main2 nav span{
+    color: white;
+    transition: 0.5s;
+}
+.nav-link :hover, #main .navbar-brand:hover , .navbar-nav .nav-item .nav-link:hover{
+    color:black;
+}
+#main div p{
+    letter-spacing: 3px;
+    color: white;
+}
+#main div h2 , #main div p{
+    position: relative;
+    animation: anime1 1 2s;
+}
+@keyframes anime1{
+    50%{transform: rotateY(360deg);}
+}
+/* =================================== */
+
+/*-------------------* shop by category *-------------------------*/
+.p2 .card{
+    transition: 0.5s;
+}
+.p2 .card :hover{
+    transform: scale(1.07, 1.07);
+}
+.container{
+    padding-bottom: 15px ;
+    background-color: #eeeeee;
+}
+.container h1{
+    letter-spacing: 2px;
+}
+/* =================================== */
+
+/*-------------------* products *-------------------------*/
+.single_product{
+    background-image:  linear-gradient( 177.9deg,   rgba(23, 32, 42, 0.096),   #16f7ffd3 );
+}
+.single_product :hover{
+    color: black;
+}
+.single_product h5 a{
+    text-decoration: none;
+}
+.productd{
+    background: linear-gradient( 177.9deg, #5355558c,  rgba(30, 30, 31, 0.096)  );
+}
+#myinput {
+    border: 1px solid #16f7ffd3;
+    border-radius: 8px;
+    height: 7px;
+    width: 250px;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    height: 15px;
+    background: #16f7ffd3;
+    border-radius: 2px;
+  }
+/* =================================== */
+
+/*-------------------* features *-------------------------*/
+#feature .container{
+    background: none;
+}
+#feature{
+    background: linear-gradient( 177.9deg,#16f7ffd3,  rgb(10, 14, 19) );
+}
+/* =================================== */
+
+/*-------------------*testimonial*-------------------------*/
+.testimonial{
+    background: linear-gradient( 177.9deg,#16f7ffd3,  rgba(23, 32, 42, 0.096) );
+}
+/* =================================== */
+
+
+/*-------------------* products *-------------------------*/
+#contact .container{
+    background: url('../../assets/img/home3.jpg') no-repeat center center/cover;
+}
+.card1{
+    background: linear-gradient( 177.9deg,#ffffff,  rgba(35, 35, 36, 0.192) );
+    transition: 0.5s;
+}
+.card1:hover{
+    background: linear-gradient( 177.9deg,#16f7ff96,  rgba(35, 35, 36, 0.192) );
+}
+.form1{
+    background: linear-gradient( 177.9deg,#16f7ff96,  rgba(255, 255, 255, 0.192) );
+}
+/* =================================== */
+
+/*-------------------* search *-------------------------*/
+.table, #Checkout .container .card{
+    background: linear-gradient( 177.9deg,#595c5cd3,  rgba(49, 53, 58, 0.096) );
+}
+#search1 i{
+    color: #16f7ffd3;
+}
+/* =================================== */
+
+/*-------------------* product details *-------------------------*/
+#productd2 .container, #oc .container{
+    background: linear-gradient( 177.9deg,#16f7ff96,  rgba(17, 17, 17, 0.39) );
+}
+#related_products  a, #cart .p1 a, #cart .p1 i{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+#related_products  a:hover, #cart .p1 a:hover{
+    color: black;
+}
+/* =================================== */
+
+/*-------------------* cart *-------------------------*/
+#cart .container, #Checkout .container{
+    background: linear-gradient( 177.9deg,#16f7ff96,  rgba(17, 17, 17, 0.39) );
+}
+.list-group-item{
+    background-color: inherit !important;
+}
+/* =================================== */
+
+
+
+/*-------------------* footer *-------------------------*/
+#footer, #copywrite{
+    background: linear-gradient( 177.9deg,#2f3333d3,  rgb(68, 68, 70) );
+}
+.footer_title1 a{
+    text-decoration: none;
+    color: #16f7ff;
+}
+.footer_title1 span{
+    color: black;
+}
+#footer .footer_links ul{
+    list-style: none;
+}
+#footer .footer_links ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s linear;
+}
+#footer .footer_links ul li a :hover, #footer .footer_links ul li :hover{
+    color: #16f7ff;
+    margin-left: 15px;
+}
+#footer .footer_links ul li{
+    margin-bottom: 10px;
+    transition: all 0.1s linear;
+}
+#copywrite{
+    margin-bottom: 0px;
+}
+.btn{
+    border: 2px solid black;
+}
+.btn:hover{
+    color: #16f7ff;
+    border: 2px solid #16f7ff;
+    background-color: black;
+}
+#button{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 100;
+}
+
+.mt-small-2{
+    margin-top: 0rem!important;
+}
+.mt-small-5{
+    margin-top: 0rem!important;
+}
+.mb-small-2{
+    margin-bottom: 0rem!important;
+}
+.mb-small-5{
+    margin-bottom: 0rem!important;
+}
+/* =================================== */
+
+/*-------------------* rsponsive setting for mobiles *-------------------------*/
+
+@media(max-width: 768px){
+    h2, h2, .h1, h1 {
+        font-size: 30px;
+    }
+    .nav-item, nav form a, .form-inline{ 
+        z-index: 100;
+        background-color: rgba(0, 0, 0, 0.39);
+    }
+    #main p{
+        display: none;
+    }
+    #footer .footer_links ul li a {
+        font-size: 16px;
+    }
+    #footer a h2{
+        font-size: 19px;
+    }
+    #footer .pl-5 {
+        padding-left: 2rem!important;
+    } 
+    #footer p{
+        font-size: 12px;
+    }
+    .mt-small-2{
+        margin-top: .5rem!important;
+    }
+    .mt-small-5{
+        margin-top: 3rem!important;
+    }
+    .mb-small-2{
+        margin-bottom: .5rem!important;
+    }
+    .mb-small-5{
+        margin-bottom: 3rem!important;
+    }
+}
+@media(min-width: 425px) and (max-width : 768px){
+    #myinput{
+        width: 160px;
+    }
+}
+@media(min-width: 769px) and (max-width : 1024px){
+    #footer h2 {
+        font-size: 30px;
+    }
+}
